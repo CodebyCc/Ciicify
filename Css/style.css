@@ -324,3 +324,16 @@ a {
     font-size: 1.7rem;
   }
 }
+/* Media */
+.media {
+  display: flex;
+}
+.media___title {
+  margin-top: 0;
+}
+.media__body {
+  margin: 0 2 rem;
+}
+.media__image {
+  margin-top: 1rem;
+}
