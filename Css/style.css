@@ -172,7 +172,7 @@ a {
   font-size: 1.8rem;
   font-weight: 600;
   margin: 1rem 0;
-  padding: 2rem, 3rem;
+  padding: 2rem 3rem;
   text-transform: uppercase;
   text-align: center;
   white-space: nowrap;
@@ -209,6 +209,10 @@ a {
 .btn--outline:hover {
   background: var(--color-heading);
   color: #fff;
+}
+.btn--stretch {
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 .btn--block {
   display: inline-block;
@@ -394,5 +398,38 @@ a {
 @media screen and (min-width: 1024px) {
   .grid--1x3 {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+/* Callouts */
+.callout {
+  padding: 4rem;
+  border-radius: 5px;
+}
+.callout--primary {
+  background: var(--color-primary);
+  color: #fff;
+}
+.callout__heading {
+  color: #fff;
+  margin-top: 0;
+}
+.callout .btn {
+  justify-self: center;
+  align-self: center;
+}
+.callout__content {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .callout .grid {
+    grid-template-columns: 1fr auto;
+  }
+  .callout__content {
+    text-align: left;
+  }
+  .callout .btn {
+    justify-self: start;
+    margin: 0 2rem;
   }
 }
