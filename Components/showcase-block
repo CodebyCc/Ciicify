@@ -1,0 +1,64 @@
+<section class="block block--dark block--skewed-right block-showcase">
+  <header class="block__header">
+    <h2>User Friendly Control Page</h2>
+  </header>
+  <div class="grid grid--1x2">
+    <img class="block-showcase__image" src="/Images/ipad@2x.png" alt="" />
+    <ul class="list">
+      <li>
+        <div class="media">
+          <div class="media__image">
+            <svg class="icon icon--primary">
+              <use xlink:href="Images/sprite.svg#snap"></use>
+            </svg>
+          </div>
+          <div class="media__body">
+            <h3 class="media___title">Easy Start & Managed Updates</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem
+              nostrum, voluptatibus possimus ullam, molestias adipisci
+              temporibus totam amet, illo similique non dolore? Veritatis eos
+              nam quis earum voluptatem repellat provident?
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="media">
+          <div class="media__image">
+            <svg class="icon icon--primary">
+              <use xlink:href="Images/sprite.svg#settings"></use>
+            </svg>
+          </div>
+          <div class="media__body">
+            <h3 class="media___title">Staging, GIT &Wp-CLI</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem
+              nostrum, voluptatibus possimus ullam, molestias adipisci
+              temporibus totam amet, illo similique non dolore? Veritatis eos
+              nam quis earum voluptatem repellat provident?
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="media">
+          <div class="media__image">
+            <svg class="icon icon--primary">
+              <use xlink:href="Images/sprite.svg#wordpress"></use>
+            </svg>
+          </div>
+          <div class="media__body">
+            <h3 class="media___title">Dynamic Caching & More</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem
+              nostrum, voluptatibus possimus ullam, molestias adipisci
+              temporibus totam amet, illo similique non dolore? Veritatis eos
+              nam quis earum voluptatem repellat provident?
+            </p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
